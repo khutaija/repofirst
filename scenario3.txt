@@ -1,0 +1,29 @@
+Objects: library, book, student, libraryid, inventorysystem
+
+class Library
+{
+	data:
+	books
+}
+
+class Student
+{
+	behavior:
+	selectBook(Libarary L)
+	swipeCard(Libraryid I)
+}
+
+
+class Inventorysystem
+{
+authenticateStudent(Libraryid I)
+Book issueBook(Library L)
+}
+
+Student sally
+Inventorysystem s
+
+sally.selectBook(L)
+sally.swipeCard(I)
+s.authenticateStudent(I)
+Book s.issueBook(L)
