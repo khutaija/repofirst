@@ -1,0 +1,40 @@
+Objects: student, printer, laptop, textfile, printout
+
+class Student
+{
+	behavior:
+	void turnsOnLaptop(Laptop L)
+	void logsIntoUserAccount(Laptop L)
+	Textfile opensTheTextfile(Laptop L)
+	Printout selectsPrintOption(Textfile T)
+	swipeHuskyID(Huskyid H)
+}
+
+class Laptop
+{
+	behavior:
+	Textfile displayTextfile(fileLocation)
+	void connectToPrinter(Printer name)
+	Jobname askForAuthentication(Student Credentials S, Jobname J)
+}
+
+class Printer
+{
+	behavior:
+	askForAuthentication(Huskyid H)
+	printout printSelectedJob(Jobname J)
+}
+
+Student khutaija
+Printer P
+Laptop L
+
+khutaija.turnsOnLaptop(L)
+khutaija.logsIntoUserAccount(L)
+Textfile khutaija.opensTheTextfile(L)
+Laptop.displayTextfile(File Location)
+khutaija.selectsPrintOption(T)
+Laptop.connectToPrinter(P)
+Jobname Laptop.askForAuthentication(S,J)
+Printer.askForAuthentication(H)
+printout printSelectedJob(J)
