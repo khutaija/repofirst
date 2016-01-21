@@ -1,0 +1,27 @@
+Objects: hungryperson, vendingmachine, coin, crisps
+
+class Hungryperson
+{
+	behavior:
+	insertCoin(Coin C)
+	makeSelection(Vendingmachine v)
+}
+
+class Vendingmachine
+{
+	data:
+	crisps
+	behavior:
+	askForSelection()
+	askForCoin(Coin C)
+	crisps  ejectCrisps(Crisps S)
+}
+
+Hungryperson khutaija
+Vendingmachine v
+
+v.askForSelection()
+khutaija.makeSelection(v)
+v.askForCoin(C)
+khutaija.insertCoin(C)
+v.ejectCrisps(S)
