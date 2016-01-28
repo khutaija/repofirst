@@ -13,7 +13,7 @@ class Seven
 			else
 			{
 				for(int i=2;i<n;i++)
-				{   fib[0] = 1;
+				{   fib[0] = 1;//you should put "fib[0]=1;fib[1]=1;" outside the for loop
 					fib[1] = 1;
 					fib[i] = fib[i-1] + fib[i-2];
 				}
