@@ -1,5 +1,7 @@
 class Six
 {
+/*You just need to find the min and max, but needn't sort the whole array.
+Your code is great. It's my fault that I didn't describe the question clearly.*/
   public int[] findMinMax(int[] nums)
   {  
 	int temp;
