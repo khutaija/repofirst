@@ -1,5 +1,5 @@
 class BonusOne
-{
+{//Bug: what if n is less than 10, like n = 6? You should return 6 but your code will actually return 0.
 	public int addDigits(int n)
     {
       int sum = 0;
@@ -8,7 +8,7 @@ class BonusOne
 	   sum = 0;
        while (n>0)
 		{ 
-		 int rem;
+		 int rem;//just a recommendation: these three lines could be combined to "sum += n%10"
 		 rem = n%10;
 	     sum = sum + rem;
 	     n = n/10;
