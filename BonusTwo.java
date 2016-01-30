@@ -1,7 +1,7 @@
 class BonusTwo
 {
 	public boolean isUgly(int n)
-	{ boolean x;//this "x" is useless, could delete it
+	{ 
 		if (n==0) 
 			return false;
 		
