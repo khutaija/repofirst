@@ -1,2 +1,3 @@
 # repofirst
-95
+second assignment: 95
+third assignment: 97
