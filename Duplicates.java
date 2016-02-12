@@ -1,6 +1,6 @@
 class Duplicates
 {
- public boolean findDuplicates(int[] nums)
+ public boolean findDuplicates(int[] nums)//notice the array is sorted. try to make your method faster
  {
 	boolean dup = false;
 	for(int i=0; i<nums.length; i++)

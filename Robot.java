@@ -1,6 +1,6 @@
 class Robot
 {
-	public int checkMessage(String message)
+	public int checkMessage(String message)//input SSS, return 0, should be 1.                   -3
 	
 	{   
 		int count=0;
