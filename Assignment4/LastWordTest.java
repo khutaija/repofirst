@@ -10,7 +10,7 @@ public class LastWordTest {
 		LastWord test = new LastWord();
 		int expectedOutput = 7;
 	   
-		int actualOutput = test.lengthOfLastWord("Your best teacher is your last mistake");
+	    int actualOutput = test.lengthOfLastWord("Your best teacher is your last mistake");
 	    assertEquals(expectedOutput, actualOutput);
 	    
 	    int expectedOutput1 = 0;
