@@ -7,8 +7,9 @@ public class LastWordTest {
 
 	@Test
 	public void testLengthOfLastWord() {
-		LastWord test = new LastWord();
-		int expectedOutput = 7;
+		
+	    LastWord test = new LastWord();
+	    int expectedOutput = 7;
 	   
 	    int actualOutput = test.lengthOfLastWord("Your best teacher is your last mistake");
 	    assertEquals(expectedOutput, actualOutput);
