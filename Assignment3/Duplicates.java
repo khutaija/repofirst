@@ -24,5 +24,3 @@
 	  System.out.println("There are no duplicates present");
 	 }
 }	 
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc.
