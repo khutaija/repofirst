@@ -4,6 +4,10 @@
 public class PowerThree {
 
 	public int[] findPowerOfThree(int n) {
+		
+		if(n<=0)
+		return null;
+		
 		int[] powers;
 		powers = new int[n];
 		powers[0] = 1;
