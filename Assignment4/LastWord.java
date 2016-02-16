@@ -8,7 +8,7 @@
 class LastWord{
   
     public int lengthOfLastWord(String str)
-
+//input "I am student      ", output 0, should be 7.                    -2
     {
       if(str.equals(""))
       {
