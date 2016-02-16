@@ -10,7 +10,7 @@ public class CapitalizeLetters {
 			return null;
 
 		char[] arrayofstring = str.toCharArray();
-		for (int i = 0; i < arrayofstring.length; i++) {//if the last char is ' ', there will be an error because index 'i' is out of bound.           -2
+		for (int i = 0; i < arrayofstring.length; i++) {//if the last char is ' ', there will be an error because index 'i' is out of bound.           -1
 			if (arrayofstring[i] == ' ' && arrayofstring[i + 1] != ' ')
 				arrayofstring[i + 1] = Character.toUpperCase(arrayofstring[i + 1]);
 		}
