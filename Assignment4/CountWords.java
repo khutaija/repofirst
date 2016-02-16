@@ -3,7 +3,7 @@
  * 'split' function. e.g. "I like soccer" --> 3. "I have 15 dollars" --> 4
  */
 public class CountWords {
-
+//input "    ", output 1, should be 0. And think about ESC: what if the input is "I like\nsoccer"?                -2
 	public int countWords(String str) {
 		if (str.equals("")) {
 			System.out.println("String is empty");
