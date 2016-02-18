@@ -30,7 +30,7 @@ public class ReverseWords {
 	
 
 		reversedString = reversedString.replaceAll("( )+", " ");
-		return reversedString;
+		return reversedString.trim();
 		}
 	
 	
