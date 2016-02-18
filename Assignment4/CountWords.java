@@ -10,7 +10,11 @@ public class CountWords {
 			return 0;
 
 		} else {
-			int count = 1;
+			int count = 0;
+			if(str.charAt(0)==' ')
+				count = 0;
+			else 
+				count = 1;
 			for (int i = 0; i < str.length() - 1; i++) {
 				if (str.charAt(i) == ' ' && str.charAt(i + 1) != ' ') {
 					count++;
