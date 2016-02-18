@@ -49,4 +49,3 @@ public void personType(Person person)
 		
 	}
 }
-Status API Training Shop Blog About Pricing

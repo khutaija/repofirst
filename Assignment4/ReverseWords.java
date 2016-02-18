@@ -3,7 +3,7 @@
 */
 
 public class ReverseWords {
-
+//input "1", output " 1", input "123", output " 123", your code always add a " " at the front.                     -2
 	public String reverseString2(String str) {
 
 		String temp = "";
@@ -30,7 +30,7 @@ public class ReverseWords {
 	
 
 		reversedString = reversedString.replaceAll("( )+", " ");
-		return reversedString;
+		return reversedString.trim();
 		}
 	
 	

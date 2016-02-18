@@ -14,8 +14,8 @@ public class LastWordTest {
 	    int actualOutput = test.lengthOfLastWord("Your best teacher is your last mistake");
 	    assertEquals(expectedOutput, actualOutput);
 	    
-	    int expectedOutput1 = 0;
-	    int actualOutput1 = test.lengthOfLastWord("Your best teacher is your last mistake ");
+	    int expectedOutput1 = 7;
+	    int actualOutput1 = test.lengthOfLastWord("Your best teacher is your last mistake     ");
 	    assertEquals(expectedOutput1, actualOutput1);
 	    
 	    int expectedOutput2 = 0;

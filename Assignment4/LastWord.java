@@ -8,22 +8,25 @@
 class LastWord{
   
     public int lengthOfLastWord(String str)
-
+//input "I am student      ", output 0, should be 7.                    -2 (I corrected my code)
+    int length = 0;
     {
       if(str.equals(""))
       {
         System.out.println("Error: You passed an empty string");
           return 0; 
-      
-      }
+       }
        else
        { 
-       int length = 0;
-         String lastword = str.substring(str.lastIndexOf(" ")+1);
-         length = lastword.length();
-         return length;
-      
-       }
+        for(int i=str.length()-1; i>=0; i--)
+        {
+            if(str.charAt(i)!=' ')
+            length++;
+            if(str.charAt(i)==' ' && length!=0)
+            return length ;
+        }
+      }
+      return -1;
     }
   
  
