@@ -9,7 +9,7 @@ public class CapitalizeLettersTets {
 	@Test
 	public void testCapitalizeLetters() {
 
-		String actualOutput = test.capitalizeLetters("A corporeal patronus");
+		String actualOutput = test.capitalizeLetters("a corporeal patronus");
 		String expectedOutput = "A Corporeal Patronus";
 		assertEquals(expectedOutput, actualOutput);
 
