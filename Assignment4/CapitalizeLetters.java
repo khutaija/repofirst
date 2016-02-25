@@ -10,6 +10,7 @@ public class CapitalizeLetters {
 			return null;
 
 		char[] arrayofstring = str.toCharArray();
+		arrayofstring[0] = Character.toUpperCase(arrayofstring[0]);
 		for (int i = 1; i < arrayofstring.length; i++) {//changed i=1          -1
 			if (arrayofstring[i] == ' ' && arrayofstring[i + 1] != ' ')
 				arrayofstring[i + 1] = Character.toUpperCase(arrayofstring[i + 1]);
