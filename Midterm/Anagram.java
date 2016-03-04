@@ -3,6 +3,8 @@ import java.util.Arrays;
 public class Anagram {
 
 	public boolean isAnagram(String s, String t) {
+		if(s.length() ==0 || t.length()==0 || s.length()!=t.length())
+		return false;
 		char stringArray1[] = s.toCharArray();
 		char stringArray2[] = t.toCharArray();
 		Arrays.sort(stringArray1);
