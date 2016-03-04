@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Arrays;
 
 public class Anagram {
@@ -17,8 +18,11 @@ public class Anagram {
 	}
 
 	public static void main(String[] args) {
-		String str1 = "anagram";
-		String str2 = "nagaram";
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the first String");
+		String str1 = scan.nextLine();
+		System.out.println("Enter the second string");
+		String str2 = scan.nextLine();
 		Anagram call = new Anagram();
 		boolean result = call.isAnagram(str1, str2);
 		System.out.println("The two strings are anagrams : " +result);
