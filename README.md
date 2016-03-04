@@ -1,8 +1,5 @@
 # repofirst
-Please build a new folder for each assignment, to make it easier to find your answer. :)
+Assignment INFO5100
 
 
-second assignment: 95
-
-
-third assignment: 97
+Khutaija Shariff
