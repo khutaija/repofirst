@@ -16,7 +16,7 @@ public class Duplicates {
 
 	public static void main(String[] args) {
 		Duplicates call = new Duplicates();
-		int[] input = {1,3,2,1,5,6,};
+		int[] input = {1,3,2,1,5,6};
 		boolean result = call.containsDuplicate(input);
 		System.out.println("Duplicates present : " +result);
 
