@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class Anagram {
 
-	public boolean isAnagram(String s, String t) {
+	public boolean isAnagram(String s, String t) {//sort is too expensive.     -2
 		if(s.length() ==0 || t.length()==0 || s.length()!=t.length())
 		return false;
 		char stringArray1[] = s.toCharArray();
