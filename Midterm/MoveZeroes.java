@@ -1,5 +1,5 @@
 public class MoveZeroes {
-	public void moveZeroes(int[] nums) {
+	public void moveZeroes(int[] nums) {// +5
 		if (nums.length == 0)
 			return;
 		int position = -1;
