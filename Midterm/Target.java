@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 public class Target {
-	public int twoSum(int[] nums, int target) {
+	public int twoSum(int[] nums, int target) {//+15
 		HashSet<Integer> number = new HashSet<Integer>();
 		int count = 0;
 		for (int i = 0; i < nums.length; i++) {
